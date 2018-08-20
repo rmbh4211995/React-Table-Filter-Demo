@@ -1,0 +1,31 @@
+.remineTable {
+  width: 100%;
+  border: 3px solid rgb(61,120,220);
+}
+
+.tableContainer {
+  margin: auto;
+  padding-top: 1em;
+  width: 60%;
+}
+
+.remineTableBody {
+  overflow-y: scroll;
+  max-height: 30vh;
+}
+
+th {
+  padding: 2px 6px 2px 6px;
+  border: 2px solid rgb(0,123,255, 0.5);
+  background-color: rgb(61,120,220);
+  color: white;
+}
+
+td {
+  padding: 5px;
+  border: 2px solid rgb(0,123,255, 0.5);
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
